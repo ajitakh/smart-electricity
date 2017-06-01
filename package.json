@@ -1,9 +1,10 @@
 {
-  "name": "essential-react",
-  "version": "0.3.0",
-  "description": "A minimal skeleton for building testable React apps using ES6.",
-  "main": "src/main.jsx",
+  "name": "nea-escort",
+  "version": "1.0.0",
+  "description": "final year project on managing electricity smartly.",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
     "postinstall": "npm run build",
     "server": "node server.js",
     "build": "webpack -p --config webpack.production.config.js",
@@ -14,20 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pheuter/essential-react.git"
+    "url": "git+https://github.com/ajitakh/Power-management.git"
+
   },
   "keywords": [
-    "skeleton",
-    "template",
+    "power",
+    "NEA",
     "react",
-    "quickstart"
+    "electricity"
   ],
-  "author": "Mark Fayngersh",
-  "license": "MIT",
+  "author": "Ajita Khatiwada",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pheuter/essential-react/issues"
+    "url": "https://github.com/ajitakh/Power-management/issues"
   },
-  "homepage": "https://github.com/pheuter/essential-react",
+  "homepage": "https://github.com/ajitakh/Power-management#readme"
   "devDependencies": {
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.7",
